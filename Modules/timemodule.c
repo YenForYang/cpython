@@ -56,12 +56,14 @@ static BOOL WINAPI PyCtrlHandler(DWORD dwCtrlType)
 static long main_thread;
 
 
-#if defined(__BORLANDC__)
+#if defined(__BORLANDC__) || defined _MSC_VER
+// See github.com/python-cmake-buildsystem/python-cmake-buildsystem/issues/161#issue-184838278
+// The below comment is NOT TRUE (at least for >=VS2015)
 /* These overrides not needed for Win32 */
 #define timezone _timezone
 #define tzname _tzname
 #define daylight _daylight
-#endif /* __BORLANDC__ */
+#endif /* __BORLANDC__ */ // ... || defined _MSC_VER
 #endif /* MS_WINDOWS */
 #endif /* !__WATCOMC__ || __QNX__ */
 

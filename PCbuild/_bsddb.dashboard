@@ -1,0 +1,1638 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo' with '\/Qipo1'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/c", "/Qm64", "/IZ:\cpython27\externals\bsddb-4.7.25.0\build_windows", "/IZ:\cpython27\externals\bsddb-4.7.25.0", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:_CRT_SECURE_NO_WARNINGS", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/D:Py_BUILD_CORE_MODULE", "/D:_WINDLL", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\_bsddb\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\_bsddb\vc142.pdb", "/TC", "/FC", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\_bsddb.obj",
+            "source_name" : "..\\Modules\\_bsddb.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:43Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_conv.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_conv.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_reclaim.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_reclaim.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_upgrade.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_upgrade.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_am.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_am.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:48Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_err.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_err.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_method.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_rename.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_rename.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_truncate.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_truncate.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbreg_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbreg\\dbreg_auto.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_open.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\fileops_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\fileops\\fileops_auto.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:57Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_meta.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_meta.c",
+            "start_time" : "2019-12-27T01:06:57Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_reclaim.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_reclaim.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_list.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_list.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_util.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mkpath.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\mkpath.c",
+            "start_time" : "2019-12-27T01:07:02Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_fput.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_fput.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\_bsddb.obj",
+            "source_name" : "..\\Modules\\_bsddb.c",
+            "start_time" : "2019-12-27T01:06:42Z",
+            "end_time" : "2019-12-27T01:06:43Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_delete.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_delete.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_recno.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_recno.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\btree_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\btree_auto.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_cds.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_cds.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_log2.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_log2.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_rec.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:51Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_setid.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_setid.c",
+            "start_time" : "2019-12-27T01:06:51Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbreg.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbreg\\dbreg.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_failchk.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_failchk.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:55Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_sig.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_sig.c",
+            "start_time" : "2019-12-27T01:06:55Z",
+            "end_time" : "2019-12-27T01:06:58Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_method.c",
+            "start_time" : "2019-12-27T01:06:58Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hmac.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hmac\\hmac.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_stat.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_method.c",
+            "start_time" : "2019-12-27T01:07:02Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_fget.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_fget.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_compact.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_compact.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:44Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_put.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_put.c",
+            "start_time" : "2019-12-27T01:06:44Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_stat.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_conv.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_conv.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_join.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_join.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_pr.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_pr.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:51Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_stati.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_stati.c",
+            "start_time" : "2019-12-27T01:06:51Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbm.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbm\\dbm.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_alloc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_alloc.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:55Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_register.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_register.c",
+            "start_time" : "2019-12-27T01:06:55Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_auto.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_stat.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_deadlock.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_deadlock.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_archive.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_archive.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_alloc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_alloc.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_mvcc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_mvcc.c",
+            "start_time" : "2019-12-27T01:07:04Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_compare.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_compare.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:44Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_open.c",
+            "start_time" : "2019-12-27T01:06:44Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_rsearch.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_rsearch.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\crdel_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\crdel_auto.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_byteorder.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_byteorder.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:48Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_getlong.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_getlong.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_open.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:51Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_setlsn.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_setlsn.c",
+            "start_time" : "2019-12-27T01:06:51Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_vrfyutil.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_vrfyutil.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_config.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_config.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:55Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_recover.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_recover.c",
+            "start_time" : "2019-12-27T01:06:55Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\fop_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\fileops\\fop_util.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:58Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_open.c",
+            "start_time" : "2019-12-27T01:06:58Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_timer.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_timer.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_put.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_put.c",
+            "start_time" : "2019-12-27T01:07:02Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_fset.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_fset.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\_bsddb.obj",
+            "source_name" : "..\\Modules\\_bsddb.c",
+            "start_time" : "2019-12-27T01:06:42Z",
+            "end_time" : "2019-12-27T01:06:43Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\aes_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\crypto\\aes_method.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:44Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_method.c",
+            "start_time" : "2019-12-27T01:06:44Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_search.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_search.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\crdel_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\crdel_rec.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_cam.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_cam.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:48Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_idspace.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_idspace.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_reclaim.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_reclaim.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_upg.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_upg.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbreg_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbreg\\dbreg_util.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_name.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_name.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_stat.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:57Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_conv.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_conv.c",
+            "start_time" : "2019-12-27T01:06:57Z",
+            "end_time" : "2019-12-27T01:06:58Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_page.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_page.c",
+            "start_time" : "2019-12-27T01:06:58Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hsearch.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hsearch\\hsearch.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_region.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_region.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_get.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_get.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_method.c",
+            "start_time" : "2019-12-27T01:07:04Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\_bsddb.obj",
+            "source_name" : "..\\Modules\\_bsddb.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:43Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_cursor.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_cursor.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_split.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_split.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\crypto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\crypto\\crypto.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:48Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_dup.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_dup.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_meta.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_meta.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_remove.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_remove.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_upg_opd.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_upg_opd.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbreg_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbreg\\dbreg_stat.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_method.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\fop_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\fileops\\fop_rec.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:57Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_func.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_func.c",
+            "start_time" : "2019-12-27T01:06:57Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_upgrade.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_upgrade.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_id.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_id.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_stat.c",
+            "start_time" : "2019-12-27T01:07:02Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_fmethod.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_fmethod.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_resize.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_resize.c",
+            "start_time" : "2019-12-27T01:07:05Z",
+            "end_time" : "2019-12-27T01:07:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_curadj.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_curadj.c",
+            "start_time" : "2019-12-27T01:06:43Z",
+            "end_time" : "2019-12-27T01:06:45Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_rec.c",
+            "start_time" : "2019-12-27T01:06:45Z",
+            "end_time" : "2019-12-27T01:06:46Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\bt_verify.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\btree\\bt_verify.c",
+            "start_time" : "2019-12-27T01:06:46Z",
+            "end_time" : "2019-12-27T01:06:47Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_auto.c",
+            "start_time" : "2019-12-27T01:06:47Z",
+            "end_time" : "2019-12-27T01:06:49Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_iface.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_iface.c",
+            "start_time" : "2019-12-27T01:06:49Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_ovfl_vrfy.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_ovfl_vrfy.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:51Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_shash.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\db_shash.c",
+            "start_time" : "2019-12-27T01:06:51Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbreg_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\dbreg\\dbreg_rec.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_globals.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_globals.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\fop_basic.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\fileops\\fop_basic.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:57Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_dup.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_dup.c",
+            "start_time" : "2019-12-27T01:06:57Z",
+            "end_time" : "2019-12-27T01:06:58Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_rec.c",
+            "start_time" : "2019-12-27T01:06:58Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_failchk.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_failchk.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_compare.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_compare.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_fopen.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_fopen.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_sync.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_sync.c",
+            "start_time" : "2019-12-27T01:07:05Z",
+            "end_time" : "2019-12-27T01:07:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mut_failchk.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mutex\\mut_failchk.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\_bsddb.obj",
+            "source_name" : "..\\Modules\\_bsddb.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:48Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_dispatch.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_dispatch.c",
+            "start_time" : "2019-12-27T01:06:48Z",
+            "end_time" : "2019-12-27T01:06:50Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_overflow.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_overflow.c",
+            "start_time" : "2019-12-27T01:06:50Z",
+            "end_time" : "2019-12-27T01:06:51Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_ret.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_ret.c",
+            "start_time" : "2019-12-27T01:06:51Z",
+            "end_time" : "2019-12-27T01:06:52Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\db_vrfy.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\db\\db_vrfy.c",
+            "start_time" : "2019-12-27T01:06:52Z",
+            "end_time" : "2019-12-27T01:06:53Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\dbt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\dbt.c",
+            "start_time" : "2019-12-27T01:06:53Z",
+            "end_time" : "2019-12-27T01:06:54Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_file.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_file.c",
+            "start_time" : "2019-12-27T01:06:54Z",
+            "end_time" : "2019-12-27T01:06:55Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\env_region.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\env\\env_region.c",
+            "start_time" : "2019-12-27T01:06:55Z",
+            "end_time" : "2019-12-27T01:06:56Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash.c",
+            "start_time" : "2019-12-27T01:06:56Z",
+            "end_time" : "2019-12-27T01:06:59Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\hash_verify.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hash\\hash_verify.c",
+            "start_time" : "2019-12-27T01:06:59Z",
+            "end_time" : "2019-12-27T01:07:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\lock_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\lock\\lock_method.c",
+            "start_time" : "2019-12-27T01:07:00Z",
+            "end_time" : "2019-12-27T01:07:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\log_debug.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\log\\log_debug.c",
+            "start_time" : "2019-12-27T01:07:01Z",
+            "end_time" : "2019-12-27T01:07:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_bh.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_bh.c",
+            "start_time" : "2019-12-27T01:07:03Z",
+            "end_time" : "2019-12-27T01:07:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mp_register.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mp\\mp_register.c",
+            "start_time" : "2019-12-27T01:07:04Z",
+            "end_time" : "2019-12-27T01:07:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\openflags.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\openflags.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_cpu.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_cpu.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_fsync.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_fsync.c",
+            "start_time" : "2019-12-27T01:07:09Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_rw.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_rw.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_ctime.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_ctime.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\os_method.c",
+            "start_time" : "2019-12-27T01:07:10Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_root.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_root.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_uid.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_uid.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "messages" : [
+                {
+                    "msg" : "warning #69: integer conversion resulted in truncation\n  \t    (u_int32_t)v.tv_sec ^ (u_int32_t)v.tv_nsec ^ P_TO_UINT32(&pid);\n  \t                                                 ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_uid.c(41)"
+                }
+            ],
+            "end_time" : "2019-12-27T01:07:13Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_stat.c",
+            "start_time" : "2019-12-27T01:07:13Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_method.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:16Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_method.c",
+            "start_time" : "2019-12-27T01:07:16Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_windows.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_windows.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\sha1.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\hmac\\sha1.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:19Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_method.c",
+            "start_time" : "2019-12-27T01:07:19Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\util_sig.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\util_sig.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_alloc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_alloc.c",
+            "start_time" : "2019-12-27T01:07:07Z",
+            "end_time" : "2019-12-27T01:07:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_flock.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_flock.c",
+            "start_time" : "2019-12-27T01:07:09Z",
+            "end_time" : "2019-12-27T01:07:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_pid.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_pid.c",
+            "start_time" : "2019-12-27T01:07:10Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_truncate.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_truncate.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:13Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_rec.c",
+            "start_time" : "2019-12-27T01:07:13Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_elect.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_elect.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:16Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_elect.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_elect.c",
+            "start_time" : "2019-12-27T01:07:16Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_stat.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\strsep.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\clib\\strsep.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\util_log.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\util_log.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mt19937db.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\crypto\\mersenne\\mt19937db.c",
+            "start_time" : "2019-12-27T01:07:05Z",
+            "end_time" : "2019-12-27T01:07:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mut_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mutex\\mut_method.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_addrinfo.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_addrinfo.c",
+            "start_time" : "2019-12-27T01:07:07Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1786: function \"inet_addr\" (declared at line 1831 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\winsock2.h\") was declared deprecated (\"Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings\")\n  \t\telse if ((tmpaddr = inet_addr(nodename)) != INADDR_NONE) {\n  \t\t                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_addrinfo.c(74)"
+                },
+                {
+                    "msg" : "warning #1786: function \"gethostbyname\" (declared at line 2219 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\winsock2.h\") was declared deprecated (\"Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings\")\n  \t\t\thostaddr = gethostbyname(nodename);\n  \t\t\t           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_addrinfo.c(77)"
+                }
+            ],
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_fid.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_fid.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_open.c",
+            "start_time" : "2019-12-27T01:07:10Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_stat.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_conv.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_conv.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_verify.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_verify.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_verify.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_verify.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_util.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\seq_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\sequence\\seq_stat.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:19Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_rec.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_rec.c",
+            "start_time" : "2019-12-27T01:07:19Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\xa.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\xa\\xa.c",
+            "start_time" : "2019-12-27T01:07:21Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_open.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_open.c",
+            "start_time" : "2019-12-27T01:07:13Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_log.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_log.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_auto.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_queue.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_queue.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_auto.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_recover.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_recover.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mut_win32.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mutex\\mut_win32.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_config.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_config.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1478: function \"GetVersion\" (declared at line 144 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n  \t\tif ((GetVersion() & 0x80000000) == 0)\n  \t\t     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_config.c(32)"
+                },
+                {
+                    "msg" : "warning #1478: function \"GetVersionExA\" (declared at line 387 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n  \t\t\tGetVersionEx(&osvi);\n  \t\t\t^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_config.c(85)"
+                }
+            ],
+            "end_time" : "2019-12-27T01:07:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_getenv.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_getenv.c",
+            "start_time" : "2019-12-27T01:07:09Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_rpath.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_rpath.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_yield.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_yield.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:13Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_method.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_method.c",
+            "start_time" : "2019-12-27T01:07:13Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_lease.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_lease.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_util.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:16Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_net.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_net.c",
+            "start_time" : "2019-12-27T01:07:16Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_util.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_util.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mut_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mutex\\mut_stat.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_errno.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_errno.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_mkdir.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_mkdir.c",
+            "start_time" : "2019-12-27T01:07:10Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_stack.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_stack.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:13Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_upgrade.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_upgrade.c",
+            "start_time" : "2019-12-27T01:07:13Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_record.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_record.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:16Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_msg.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_msg.c",
+            "start_time" : "2019-12-27T01:07:16Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rijndael-api-fst.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\crypto\\rijndael\\rijndael-api-fst.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:19Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_failchk.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_failchk.c",
+            "start_time" : "2019-12-27T01:07:19Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_region.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_region.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\xa_db.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\xa\\xa_db.c",
+            "start_time" : "2019-12-27T01:07:21Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_abort.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_abort.c",
+            "start_time" : "2019-12-27T01:07:07Z",
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_dir.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_dir.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_map.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_map.c",
+            "start_time" : "2019-12-27T01:07:09Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_seek.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_seek.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_auto.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_auto.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_auto.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_region.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_region.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rijndael-alg-fst.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\crypto\\rijndael\\rijndael-alg-fst.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_chkpt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_chkpt.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\txn_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\txn\\txn_stat.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\zerofill.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\zerofill.c",
+            "start_time" : "2019-12-27T01:07:21Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\mut_region.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\mutex\\mut_region.c",
+            "start_time" : "2019-12-27T01:07:06Z",
+            "end_time" : "2019-12-27T01:07:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_clock.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_clock.c",
+            "start_time" : "2019-12-27T01:07:08Z",
+            "end_time" : "2019-12-27T01:07:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_handle.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_handle.c",
+            "start_time" : "2019-12-27T01:07:09Z",
+            "end_time" : "2019-12-27T01:07:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_rename.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os_windows\\os_rename.c",
+            "start_time" : "2019-12-27T01:07:10Z",
+            "end_time" : "2019-12-27T01:07:11Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\os_tmpdir.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\os\\os_tmpdir.c",
+            "start_time" : "2019-12-27T01:07:11Z",
+            "end_time" : "2019-12-27T01:07:12Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\qam_files.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\qam\\qam_files.c",
+            "start_time" : "2019-12-27T01:07:12Z",
+            "end_time" : "2019-12-27T01:07:14Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_backup.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_backup.c",
+            "start_time" : "2019-12-27T01:07:14Z",
+            "end_time" : "2019-12-27T01:07:15Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\rep_stat.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\rep\\rep_stat.c",
+            "start_time" : "2019-12-27T01:07:15Z",
+            "end_time" : "2019-12-27T01:07:17Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\repmgr_sel.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\repmgr\\repmgr_sel.c",
+            "start_time" : "2019-12-27T01:07:17Z",
+            "end_time" : "2019-12-27T01:07:18Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\sequence.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\sequence\\sequence.c",
+            "start_time" : "2019-12-27T01:07:18Z",
+            "end_time" : "2019-12-27T01:07:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\util_cache.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\common\\util_cache.c",
+            "start_time" : "2019-12-27T01:07:20Z",
+            "end_time" : "2019-12-27T01:07:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_bsddb\\xa_map.obj",
+            "source_name" : "Z:\\cpython27\\externals\\bsddb-4.7.25.0\\xa\\xa_map.c",
+            "start_time" : "2019-12-27T01:07:21Z",
+            "end_time" : "2019-12-27T01:07:22Z"
+        }
+    ]
+}

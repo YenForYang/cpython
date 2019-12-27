@@ -1,0 +1,109 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10382",
+            "type" : "command line remark",
+            "msg" : "option '\/QxHOST' setting '\/QxCORE-AVX2'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:precise'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/O2'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O2' with '\/O3'"
+        }
+    ],
+    "options" : [ "/I.", "/I..", "/I..\src", "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/nologo", "/W4", "/DINCLUDE_MSVC_H=1", "/DSQLITE_OS_WIN=1", "/fp:precise", "/MT", "/DNDEBUG", "/D_CRT_SECURE_NO_DEPRECATE", "/D_CRT_SECURE_NO_WARNINGS", "/D_CRT_NONSTDC_NO_DEPRECATE", "/D_CRT_NONSTDC_NO_WARNINGS", "/DSQLITE_THREADSAFE=1", "/DSQLITE_THREAD_OVERRIDE_LOCK=-1", "/DSQLITE_TEMP_STORE=1", "/DSQLITE_MAX_TRIGGER_DEPTH=100", "/DSQLITE_ENABLE_FTS3=1", "/DSQLITE_ENABLE_RTREE=1", "/DSQLITE_ENABLE_GEOPOLY=1", "/DSQLITE_ENABLE_JSON1=1", "/DSQLITE_ENABLE_STMTVTAB=1", "/DSQLITE_ENABLE_DBPAGE_VTAB=1", "/DSQLITE_ENABLE_DBSTAT_VTAB=1", "/DSQLITE_ENABLE_DESERIALIZE=1", "/DSQLITE_ENABLE_COLUMN_METADATA=1", "/O2", "/Zi", "/Fosqlite3.lo", "/Fdsqlite3.pdb", "/c", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "sqlite3.lo",
+            "source_name" : "sqlite3.c",
+            "start_time" : "2019-12-27T01:19:18Z",
+            "messages" : [
+                {
+                    "msg" : "unimplemented pragma ignored\n  #      pragma intrinsic(_byteswap_ushort)\n                ^",
+                    "line" : "13241",
+                    "diagnostic_num" : "1879",
+                    "file" : "sqlite3.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "unimplemented pragma ignored\n  #      pragma intrinsic(_byteswap_ulong)\n                ^",
+                    "line" : "13242",
+                    "diagnostic_num" : "1879",
+                    "file" : "sqlite3.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "unimplemented pragma ignored\n  #      pragma intrinsic(_byteswap_uint64)\n                ^",
+                    "line" : "13243",
+                    "diagnostic_num" : "1879",
+                    "file" : "sqlite3.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "unimplemented pragma ignored\n  #      pragma intrinsic(_ReadWriteBarrier)\n                ^",
+                    "line" : "13244",
+                    "diagnostic_num" : "1879",
+                    "file" : "sqlite3.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n    if( NEVER(sz<sizeof(MemFile)) ) sz = sizeof(MemFile);\n        ^",
+                    "line" : "47760",
+                    "diagnostic_num" : "2557",
+                    "file" : "sqlite3.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n     && (nByte = sqlite3_value_bytes(pVal))>=(4+6*sizeof(GeoCoord))\n                                           ^",
+                    "line" : "189483",
+                    "diagnostic_num" : "2557",
+                    "file" : "sqlite3.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n    for(i=0; i<sizeof(aFunc)\/sizeof(aFunc[0]) && rc==SQLITE_OK; i++){\n              ^",
+                    "line" : "190962",
+                    "diagnostic_num" : "2557",
+                    "file" : "sqlite3.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n    for(i=0; i<sizeof(aAgg)\/sizeof(aAgg[0]) && rc==SQLITE_OK; i++){\n              ^",
+                    "line" : "190968",
+                    "diagnostic_num" : "2557",
+                    "file" : "sqlite3.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n    if( pgno<1 || pBt==0 || pgno>(int)sqlite3BtreeLastPage(pBt) ){\n                                ^",
+                    "line" : "199112",
+                    "diagnostic_num" : "2557",
+                    "file" : "sqlite3.c",
+                    "type" : "remark"
+                }
+            ],
+            "end_time" : "2019-12-27T01:19:22Z"
+        }
+    ]
+}

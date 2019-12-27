@@ -1,0 +1,354 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo' with '\/Qipo1'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/c", "/Qm64", "/IZ:\cpython27\externals\openssl\", "/IZ:\cpython27\externals\openssl\include64", "/IZ:\cpython27\externals\openssl\crypto", "/IZ:\cpython27\externals\openssl\crypto\asn1", "/IZ:\cpython27\externals\openssl\crypto\evp", "/IZ:\cpython27\externals\openssl\crypto\modes", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:DSO_WIN32", "/D:WIN32_LEAN_AND_MEAN", "/D:L_ENDIAN", "/D:_CRT_SECURE_NO_WARNINGS", "/D:_CRT_SECURE_NO_DEPRECATE", "/D:OPENSSL_THREADS", "/D:OPENSSL_IA32_SSE2", "/D:SHA1_ASM", "/D:SHA256_ASM", "/D:SHA512_ASM", "/D:MD5_ASM", "/D:AES_ASM", "/D:VPAES_ASM", "/D:WHIRLPOOL_ASM", "/D:GHASH_ASM", "/D:OPENSSL_NO_IDEA", "/D:OPENSSL_NO_RC5", "/D:OPENSSL_NO_MD2", "/D:OPENSSL_NO_MDC2", "/D:OPENSSL_NO_KRB5", "/D:OPENSSL_NO_JPAKE", "/D:OPENSSL_NO_RDRAND", "/D:OPENSSL_NO_RSAX", "/D:OPENSSL_NO_DYNAMIC_ENGINE", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\externals\openssl\tmp\amd64_Release\ssleay\", "/FdZ:\cpython27\externals\openssl\tmp\amd64_Release\ssleay\ssleay.pdb", "/TC", "/Qdiag-disable:4244,4267", "/FC", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_enc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_enc.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s23_pkt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s23_pkt.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_asn1.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_asn1.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_sess.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_sess.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_lib.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_cbc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_cbc.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_algs.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_algs.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_rsa.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_rsa.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_lib.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s23_clnt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s23_clnt.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_clnt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_clnt.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_cert.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_cert.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_enc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_enc.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_srtp.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_srtp.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s23_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s23_lib.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_lib.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_err2.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_err2.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_meth.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_meth.c",
+            "start_time" : "2019-12-27T00:34:30Z",
+            "end_time" : "2019-12-27T00:34:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_pkt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_pkt.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_srvr.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_srvr.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_enc.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_enc.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_err.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_err.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_srvr.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_srvr.c",
+            "start_time" : "2019-12-27T00:34:30Z",
+            "end_time" : "2019-12-27T00:34:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_clnt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_clnt.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s23_meth.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s23_meth.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_meth.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_meth.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_ciph.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_ciph.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_lib.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_meth.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_meth.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_both.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_srvr.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_srvr.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_clnt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_clnt.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\tls_srp.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\tls_srp.c",
+            "start_time" : "2019-12-27T00:34:30Z",
+            "end_time" : "2019-12-27T00:34:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\d1_both.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\d1_both.c",
+            "start_time" : "2019-12-27T00:34:25Z",
+            "end_time" : "2019-12-27T00:34:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s2_pkt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s2_pkt.c",
+            "start_time" : "2019-12-27T00:34:26Z",
+            "end_time" : "2019-12-27T00:34:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s23_srvr.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s23_srvr.c",
+            "start_time" : "2019-12-27T00:34:27Z",
+            "end_time" : "2019-12-27T00:34:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\s3_pkt.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\s3_pkt.c",
+            "start_time" : "2019-12-27T00:34:28Z",
+            "end_time" : "2019-12-27T00:34:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\ssl_lib.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\ssl_lib.c",
+            "start_time" : "2019-12-27T00:34:29Z",
+            "end_time" : "2019-12-27T00:34:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\ssleay\\t1_reneg.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\ssl\\t1_reneg.c",
+            "start_time" : "2019-12-27T00:34:30Z",
+            "end_time" : "2019-12-27T00:34:31Z"
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/c", "/Qm64", "/IZ:\cpython27\externals\openssl\tmp\amd64_Release\libeay\", "/IZ:\cpython27\externals\openssl\", "/IZ:\cpython27\externals\openssl\include64", "/IZ:\cpython27\externals\openssl\crypto", "/IZ:\cpython27\externals\openssl\crypto\asn1", "/IZ:\cpython27\externals\openssl\crypto\evp", "/IZ:\cpython27\externals\openssl\crypto\modes", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:DSO_WIN32", "/D:WIN32_LEAN_AND_MEAN", "/D:L_ENDIAN", "/D:_CRT_SECURE_NO_WARNINGS", "/D:_CRT_SECURE_NO_DEPRECATE", "/D:OPENSSL_THREADS", "/D:OPENSSL_IA32_SSE2", "/D:SHA1_ASM", "/D:SHA256_ASM", "/D:SHA512_ASM", "/D:MD5_ASM", "/D:AES_ASM", "/D:VPAES_ASM", "/D:WHIRLPOOL_ASM", "/D:GHASH_ASM", "/D:OPENSSL_NO_IDEA", "/D:OPENSSL_NO_RC5", "/D:OPENSSL_NO_MD2", "/D:OPENSSL_NO_MDC2", "/D:OPENSSL_NO_KRB5", "/D:OPENSSL_NO_JPAKE", "/D:OPENSSL_NO_RDRAND", "/D:OPENSSL_NO_RSAX", "/D:OPENSSL_NO_DYNAMIC_ENGINE", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/GF", "/EHs", "/EHc", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\externals\openssl\tmp\amd64_Release\libeay\", "/FdZ:\cpython27\externals\openssl\tmp\amd64_Release\libeay\libeay.pdb", "/TC", "/Qdiag-disable:4244,4267", "/FC", "/Qipo-c" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\externals\\openssl\\tmp\\amd64_Release\\libeay\\cversion.obj",
+            "source_name" : "Z:\\cpython27\\externals\\openssl\\crypto\\cversion.c",
+            "start_time" : "2019-12-27T02:36:48Z",
+            "end_time" : "2019-12-27T02:36:49Z"
+        }
+    ]
+}

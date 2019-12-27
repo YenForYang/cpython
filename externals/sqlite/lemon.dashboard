@@ -1,0 +1,159 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10382",
+            "type" : "command line remark",
+            "msg" : "option '\/QxHOST' setting '\/QxCORE-AVX2'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/O2'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/nologo", "/W4", "/Fdlemon.pdb", "/MT", "/DNDEBUG", "/D_CRT_SECURE_NO_DEPRECATE", "/D_CRT_SECURE_NO_WARNINGS", "/D_CRT_NONSTDC_NO_DEPRECATE", "/D_CRT_NONSTDC_NO_WARNINGS", "/O2", "/Zi", "/wd4054", "/wd4055", "/wd4100", "/wd4127", "/wd4130", "/wd4152", "/wd4189", "/wd4206", "/wd4210", "/wd4232", "/wd4244", "/wd4305", "/wd4306", "/wd4702", "/wd4706", "/Daccess=_access", "/Felemon.exe" ],
+    "objects" : [
+        {
+            "object_name" : "lemon.obj",
+            "source_name" : "..\\tool\\lemon.c",
+            "start_time" : "2019-12-27T01:18:57Z",
+            "messages" : [
+                {
+                    "msg" : "comparison between signed and unsigned operands\n      for(i=0; i<sizeof(x)\/sizeof(x[0]) && x[i]; i++){\n                ^",
+                    "line" : "1600",
+                    "diagnostic_num" : "2557",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "comparison between signed and unsigned operands\n    for(i=0; i<sizeof(x)\/sizeof(x[0]); i++){\n              ^",
+                    "line" : "1608",
+                    "diagnostic_num" : "2557",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n            psp->prevrule->neverReduce = 1;\n                                       ^",
+                    "line" : "2286",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n            psp->prevrule->noCode = 0;\n                                  ^",
+                    "line" : "2290",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n            rp->noCode = 1;\n                       ^",
+                    "line" : "2398",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n      rp->noCode = 1;\n                 ^",
+                    "line" : "3732",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n      rp->noCode = 0;\n                 ^",
+                    "line" : "3734",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n        rp->noCode = 0;\n                   ^",
+                    "line" : "3750",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n      rp->noCode = 0;\n                 ^",
+                    "line" : "3900",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n          ap->x.rp->doesReduce = 1;\n                               ^",
+                    "line" : "4428",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n          rp2->codeEmitted = 1;\n                           ^",
+                    "line" : "4743",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                },
+                {
+                    "msg" : "enumerated type mixed with another type\n      rp->codeEmitted = 1;\n                      ^",
+                    "line" : "4748",
+                    "diagnostic_num" : "188",
+                    "file" : "..\\tool\\lemon.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2019-12-27T01:18:58Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\USER\\TMP\\ipo_781528.obj",
+            "source_name" : "ipo_out.c",
+            "start_time" : "2019-12-27T01:18:58Z",
+            "messages" : [
+                {
+                    "msg" : "performing single-file optimizations",
+                    "diagnostic_num" : "11001",
+                    "file" : "ipo",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "Inlining inhibited by limit max-size",
+                    "diagnostic_num" : "11074",
+                    "file" : "ipo",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "Inlining inhibited by limit max-total-size",
+                    "diagnostic_num" : "11074",
+                    "file" : "ipo",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "To get full report use -Qopt-report:4 -Qopt-report-phase ipo",
+                    "diagnostic_num" : "11075",
+                    "file" : "ipo",
+                    "type" : "remark"
+                },
+                {
+                    "msg" : "generating object file Z:\\USER\\TMP\\ipo_781528.obj",
+                    "diagnostic_num" : "11006",
+                    "file" : "ipo",
+                    "type" : "remark"
+                }
+            ],
+            "end_time" : "2019-12-27T01:19:01Z"
+        }
+    ]
+}

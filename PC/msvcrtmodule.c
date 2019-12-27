@@ -23,6 +23,11 @@
 #include <sys/locking.h>
 
 #ifdef _MSC_VER
+// See github.com/python-cmake-buildsystem/python-cmake-buildsystem/issues/161#issuecomment-501737303
+// Need to manually define in VS2019 to have wide character input support
+#	ifndef _WCONIO_DEFINED
+#	define _WCONIO_DEFINED
+#	endif
 #if _MSC_VER >= 1500 && _MSC_VER < 1600
 #include <crtassem.h>
 #endif

@@ -1,0 +1,746 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo' with '\/Qipo1'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/c", "/Qm64", "/IZ:\cpython27\externals\sqlite\", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:MODULE_NAME="sqlite3"", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/D:Py_BUILD_CORE_MODULE", "/D:_WINDLL", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\_sqlite3\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\_sqlite3\vc142.pdb", "/TC", "/FC", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\microprotocols.obj",
+            "source_name" : "..\\Modules\\_sqlite\\microprotocols.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cursor.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cursor.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\prepare_protocol.obj",
+            "source_name" : "..\\Modules\\_sqlite\\prepare_protocol.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\connection.obj",
+            "source_name" : "..\\Modules\\_sqlite\\connection.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\statement.obj",
+            "source_name" : "..\\Modules\\_sqlite\\statement.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\row.obj",
+            "source_name" : "..\\Modules\\_sqlite\\row.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:04Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\sqlite3.obj",
+            "source_name" : "Z:\\cpython27\\externals\\sqlite\\\\sqlite3.c",
+            "start_time" : "2019-12-27T01:16:04Z",
+            "messages" : [
+                {
+                    "msg" : "error: identifier \"OPFLG_INITIALIZER\" is undefined\n  SQLITE_PRIVATE const unsigned char sqlite3OpcodeProperty[] = OPFLG_INITIALIZER;\n                                                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(19987)"
+                },
+                {
+                    "msg" : "error: expected an expression\n  typedef struct winShm winShm;           \/* A connection to shared-memory *\/\n  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(40852)"
+                },
+                {
+                    "msg" : "error: expected a \"}\"\n  typedef struct winShm winShm;           \/* A connection to shared-memory *\/\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(40852)"
+                },
+                {
+                    "msg" : "error: identifier \"winShm\" is undefined\n    winShm *pShm;           \/* Instance of shared memory on this file *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(40883)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n  ){\n   ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41781)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n          rc = SQLITE_OK;\n                        ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41805)"
+                },
+                {
+                    "msg" : "error: identifier \"pNewFunc\" is undefined\n          if( pNewFunc==0 ) pNewFunc = aSyscall[i].pDefault;\n              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41806)"
+                },
+                {
+                    "msg" : "error: a break statement may only be used within a loop or switch\n          break;\n          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41808)"
+                },
+                {
+                    "msg" : "warning #1011: missing return statement at end of non-void function \"sqlite3OpcodeName\"\n        }\n        ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41809)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n      }\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41810)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n  }\n  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(41813)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n    return 1;\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42073)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n  }\n  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42075)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n      sqlite3_free(*ppDirectory);\n                                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42553)"
+                },
+                {
+                    "msg" : "warning #77: this declaration has no storage class or type specifier\n      *ppDirectory = zCopy;\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42554)"
+                },
+                {
+                    "msg" : "error: identifier \"zCopy\" is undefined\n      *ppDirectory = zCopy;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42554)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n      return SQLITE_OK;\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42555)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n    }\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42556)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n  }\n  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42558)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n                               0);\n                                 ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42627)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n      if( dwLen > 0 ){\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42629)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n    return 0;\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42670)"
+                },
+                {
+                    "msg" : "error: expected a declaration\n  }\n  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42671)"
+                },
+                {
+                    "msg" : "warning #12: parsing restarts here after previous syntax error\n  static int winIoerrRetry = SQLITE_WIN32_IOERR_RETRY;\n                                                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42725)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    DWORD e = osGetLastError();\n              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42760)"
+                },
+                {
+                    "msg" : "error: identifier \"winIoerrRetry\" is undefined\n    if( *pnRetry>=winIoerrRetry ){\n                  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(42761)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      return osLockFileEx(*phFile, flags, 0, numBytesLow, numBytesHigh, &ovlp);\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43139)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      return osLockFile(*phFile, offsetLow, offsetHigh, numBytesLow,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43141)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      return osUnlockFileEx(*phFile, 0, numBytesLow, numBytesHigh, &ovlp);\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43170)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      return osUnlockFile(*phFile, offsetLow, offsetHigh, numBytesLow,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43172)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static int winSeekFile(winFile *pFile, sqlite3_int64 iOffset){\n                         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43195)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    dwRet = osSetFilePointer(pFile->h, lowerBits, &upperBits, FILE_BEGIN);\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43214)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      winLogError(SQLITE_IOERR_SEEK, pFile->lastErrno,\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43219)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static int winMapfile(winFile*, sqlite3_int64);\n                        ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43253)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static int winUnmapfile(winFile*);\n                          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43254)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43270)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43270)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43270)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43270)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      rc = osCloseHandle(pFile->h);\n           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43285)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n              : winLogError(SQLITE_IOERR_CLOSE, osGetLastError(),\n                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43315)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n              : winLogError(SQLITE_IOERR_CLOSE, osGetLastError(),\n                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43315)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* file handle *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43333)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* file handle *\/\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43333)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;  \/* file handle *\/\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43333)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;  \/* file handle *\/\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43333)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    while( !osReadFile(pFile->h, pBuf, amt, &nRead, &overlapped) &&\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43375)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      return winLogError(SQLITE_IOERR_READ, pFile->lastErrno,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43383)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* File handle *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43411)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* File handle *\/\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43411)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;  \/* File handle *\/\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43411)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;  \/* File handle *\/\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43411)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        if( !osWriteFile(pFile->h, aRem, nRem, &nWrite, &overlapped) ){\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43466)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n        return winLogError(SQLITE_FULL, pFile->lastErrno,\n               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43495)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      return winLogError(SQLITE_IOERR_WRITE, pFile->lastErrno,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43500)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* File handle object *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43514)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;  \/* File handle object *\/\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43514)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;  \/* File handle object *\/\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43514)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;  \/* File handle object *\/\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43514)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      rc = winLogError(SQLITE_IOERR_TRUNCATE, pFile->lastErrno,\n           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43566)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    }else if( 0==osSetEndOfFile(pFile->h) &&\n                 ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43568)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      rc = winLogError(SQLITE_IOERR_TRUNCATE, pFile->lastErrno,\n           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43571)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43615)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43615)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43615)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43615)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      if( osFlushViewOfFile(pFile->pMapRegion, 0) ){\n          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43654)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n        return winLogError(SQLITE_IOERR_MMAP, pFile->lastErrno,\n               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43663)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    rc = osFlushFileBuffers(pFile->h);\n         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43668)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      return winLogError(SQLITE_IOERR_FSYNC, pFile->lastErrno,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43678)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43688)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43688)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43688)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43688)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      lowerBits = osGetFileSize(pFile->h, &upperBits);\n                  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43714)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n        rc = winLogError(SQLITE_IOERR_FSTAT, pFile->lastErrno,\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43719)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static int winGetReadLock(winFile *pFile){\n                            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43765)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      pFile->lastErrno = osGetLastError();\n                         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43790)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static int winUnlockReadLock(winFile *pFile){\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43800)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n    if( res==0 && ((lastErrno = osGetLastError())!=ERROR_NOT_LOCKED) ){\n                                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43812)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n      winLogError(SQLITE_IOERR_UNLOCK, pFile->lastErrno,\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43814)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43852)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43852)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43852)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43852)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        lastErrno = osGetLastError();\n                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43897)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        lastErrno = osGetLastError();\n                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43911)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        lastErrno = osGetLastError();\n                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43923)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        lastErrno = osGetLastError();\n                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43935)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        lastErrno = osGetLastError();\n                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43956)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43992)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43992)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43992)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(43992)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44028)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44028)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44028)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44028)"
+                },
+                {
+                    "msg" : "warning #266: function \"winLogErrorAtLine\" declared implicitly\n        rc = winLogError(SQLITE_IOERR_UNLOCK, osGetLastError(),\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44040)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n        rc = winLogError(SQLITE_IOERR_UNLOCK, osGetLastError(),\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44040)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n  static void winModeBit(winFile *pFile, unsigned char mask, int *pArg){\n                         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44103)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *pFile = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44122)"
+                },
+                {
+                    "msg" : "error: identifier \"pFile\" is undefined\n    winFile *pFile = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44122)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *pFile = (winFile*)id;\n                              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44122)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *pFile = (winFile*)id;\n                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44122)"
+                },
+                {
+                    "msg" : "error: identifier \"winIoerrRetry\" is undefined\n          winIoerrRetry = a[0];\n          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44176)"
+                },
+                {
+                    "msg" : "error: identifier \"winIoerrRetry\" is undefined\n          a[0] = winIoerrRetry;\n                 ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44178)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile *p = (winFile*)id;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44265)"
+                },
+                {
+                    "msg" : "error: identifier \"p\" is undefined\n    winFile *p = (winFile*)id;\n             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44265)"
+                },
+                {
+                    "msg" : "error: expected an expression\n    winFile *p = (winFile*)id;\n                          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44265)"
+                },
+                {
+                    "msg" : "error: expected a \";\"\n    winFile *p = (winFile*)id;\n                           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44265)"
+                },
+                {
+                    "msg" : "error: identifier \"winFile\" is undefined\n    winFile hFile;             \/* File handle from winOpen *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44332)"
+                },
+                {
+                    "msg" : "error: identifier \"winShm\" is undefined\n    winShm *pFirst;            \/* All winShm objects pointing to this *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44346)"
+                },
+                {
+                    "msg" : "error: identifier \"winShmNode\" is undefined\n    winShmNode *pNext;         \/* Next in list of all winShmNode objects *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44347)"
+                },
+                {
+                    "msg" : "error: identifier \"winShmNode\" is undefined\n  static winShmNode *winShmNodeList = 0;\n         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44358)"
+                },
+                {
+                    "msg" : "error: identifier \"winShmNode\" is undefined\n    winShmNode *pShmNode;      \/* The underlying winShmNode object *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44374)"
+                },
+                {
+                    "msg" : "error: identifier \"winShm\" is undefined\n    winShm *pNext;             \/* Next winShm with the same winShmNode *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44375)"
+                },
+                {
+                    "msg" : "error: identifier \"winShmNode\" is undefined\n    winShmNode *pFile,    \/* Apply locks to this open shared-memory segment *\/\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44397)"
+                },
+                {
+                    "msg" : "error: identifier \"aSyscall\" is undefined\n      pFile->lastErrno =  osGetLastError();\n                          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44423)"
+                },
+                {
+                    "msg" : "error: identifier \"winShmNode\" is undefined\n    winShmNode **pp;\n    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\externals\\sqlite\\\\sqlite3.c(44445)"
+                }
+            ],
+            "end_time" : "2019-12-27T01:16:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\cache.obj",
+            "source_name" : "..\\Modules\\_sqlite\\cache.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\module.obj",
+            "source_name" : "..\\Modules\\_sqlite\\module.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_sqlite3\\util.obj",
+            "source_name" : "..\\Modules\\_sqlite\\util.c",
+            "start_time" : "2019-12-27T01:16:03Z",
+            "end_time" : "2019-12-27T01:16:04Z"
+        }
+    ]
+}

@@ -1,0 +1,46 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/c", "/Qm64", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/D:Py_BUILD_CORE_MODULE", "/D:_WINDLL", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\_testcapi\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\_testcapi\vc142.pdb", "/TC", "/FC" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\_testcapi\\_testcapimodule.obj",
+            "source_name" : "..\\Modules\\_testcapimodule.c",
+            "start_time" : "2019-12-27T03:35:09Z",
+            "messages" : [
+                {
+                    "msg" : "warning #810: conversion from \"_HFILE\" to \"long\" may lose significant bits\n      res = (long)_CrtSetReportFile(type, (_HFILE)file);\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\_testcapimodule.c(2652)"
+                },
+                {
+                    "msg" : "warning #810: conversion from \"_HFILE\" to \"int\" may lose significant bits\n      PyModule_AddIntConstant(m, \"CRTDBG_FILE_STDERR\", (int)_CRTDBG_FILE_STDERR);\n                                                       ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\_testcapimodule.c(3014)"
+                }
+            ],
+            "end_time" : "2019-12-27T03:35:09Z"
+        }
+    ]
+}

@@ -92,14 +92,14 @@ Copyright (C) 1994 Steen Lumholt.
    Tcl_Unichar. This is also ok as long as Python uses UCS-4,
    as well.
 */
-#if TCL_UTF_MAX != 3 && !(defined(Py_UNICODE_WIDE) && TCL_UTF_MAX==6)
-#error "unsupported Tcl configuration"
-#endif
+//#if TCL_UTF_MAX != 3 && !(defined(Py_UNICODE_WIDE) && TCL_UTF_MAX==6)
+//#error "unsupported Tcl configuration"
+//#endif
 
 #if TK_HEX_VERSION >= 0x08050208 && TK_HEX_VERSION < 0x08060000 || \
     TK_HEX_VERSION >= 0x08060200
 #define HAVE_LIBTOMMAMTH
-#include <tclTomMath.h>
+#include <TomMath.h>
 #endif
 
 #if !(defined(MS_WINDOWS) || defined(__CYGWIN__))
@@ -1262,13 +1262,15 @@ fromBignumObj(PyObject* tkapp, Tcl_Obj *value)
 
     if (Tcl_GetBignumFromObj(Tkapp_Interp(tkapp), value, &bigValue) != TCL_OK)
         return Tkinter_Error(tkapp);
-    numBytes = mp_unsigned_bin_size(&bigValue);
+    //numBytes = mp_unsigned_bin_size(&bigValue);
+    numBytes = mp_ubin_size(&bigValue);
     bytes = PyMem_Malloc(numBytes);
     if (bytes == NULL) {
         mp_clear(&bigValue);
         return PyErr_NoMemory();
     }
-    if (mp_to_unsigned_bin_n(&bigValue, bytes,
+    //if (mp_to_unsigned_bin_n(&bigValue, bytes,
+    if (mp_to_ubin(&bigValue, bytes, SIZE_MAX,
                                 &numBytes) != MP_OKAY) {
         mp_clear(&bigValue);
         PyMem_Free(bytes);

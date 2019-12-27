@@ -1,0 +1,791 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/O2'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/GS-' with '\/GS'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/GL'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/GL' with '\/Qipo1'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/GS' with '\/GS-'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O2' with '\/O3'"
+        }
+    ],
+    "options" : [ "/IZ:\cpython27\PCbuild\tcl\win\..\win", "/IZ:\cpython27\PCbuild\tcl\win\..\generic", "/IZ:\cpython27\PCbuild\tcl\win\..\libtommath", "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/nologo", "/c", "/D_ATL_XP_TARGETING", "/W3", "/wd4311", "/wd4312", "/FpZ:\cpython27\PCbuild\tcl\win\Release_AMD64_VC1924\tcl_Dynamic\", "/fp:strict", "/O2", "/GS", "/GL", "/MD", "/DTCL_TOMMATH", "/DMP_PREC=4", "/Dinline=__inline", "/DHAVE_ZLIB=1", "/D_CRT_SECURE_NO_DEPRECATE", "/D_CRT_NONSTDC_NO_DEPRECATE", "/DMP_FIXED_CUTOFFS", "/DMP_WUR=", "/DTCL_CFGVAL_ENCODING="cp1252"", "/DSTDC_HEADERS", "/DHAVE_STDINT_H=1", "/DHAVE_INTTYPES_H=1", "/DHAVE_STDBOOL_H=1", "/DTCL_WITH_EXTERNAL_TOMMATH", "/DMP_64BIT", "/DNDEBUG", "/DTCL_CFG_OPTIMIZED", "/DTCL_CFG_DO64BIT", "/DBUILD_tcl", "/FoZ:\cpython27\PCbuild\tcl\win\Release_AMD64_VC1924\tcl_Dynamic\", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regfree.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regfree.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCkalloc.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCkalloc.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCompExpr.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCompExpr.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclEvent.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclEvent.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclHash.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclHash.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIOGT.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIOGT.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclLiteral.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclLiteral.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOOMethod.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOOMethod.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPathObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPathObj.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclResult.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclResult.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclThreadStorage.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclThreadStorage.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regexec.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regexec.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCmdAH.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCmdAH.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCompile.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCompile.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclEncoding.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclEncoding.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclGet.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclGet.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIOUtil.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIOUtil.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclNamesp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclNamesp.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOptimize.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOptimize.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPreserve.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPreserve.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclScan.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclScan.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclTimer.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclTimer.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclAssembly.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclAssembly.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCompCmds.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCompCmds.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclEnv.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclEnv.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclHistory.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclHistory.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIOSock.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIOSock.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclListObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclListObj.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOOBasic.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOOBasic.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclParse.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclParse.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclProcess.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclProcess.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclStubInit.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclStubInit.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclTomMathInterface.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclTomMathInterface.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regerror.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regerror.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclBinary.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclBinary.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCompCmdsSZ.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCompCmdsSZ.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclInterp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclInterp.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIORTrans.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIORTrans.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOOCall.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOOCall.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPanic.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPanic.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclRegexp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclRegexp.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclThread.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclThread.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclTrace.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclTrace.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclAlloc.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclAlloc.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCmdIL.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCmdIL.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclDate.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclDate.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclExecute.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "messages" : [
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      esPtr->tosPtr = STACK_BASE(esPtr);\n                      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(796)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tcurrElems = esPtr->endPtr - STACK_BASE(esPtr);\n  \t                            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1015)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tif (esPtr->markerPtr || (esPtr->tosPtr != STACK_BASE(esPtr))) {\n  \t                                          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1016)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tcurrElems = esPtr->endPtr - STACK_BASE(esPtr);\n  \t                            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1028)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      esPtr->tosPtr = STACK_BASE(esPtr);\n                      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1182)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tif (tmpPtr->tosPtr == STACK_BASE(tmpPtr)) {\n  \t                      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1185)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      esPtr->tosPtr = initTosPtr;\n                      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1886)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      TD->catchTop    = initCatchTop;\n                        ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(1889)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tif (tosPtr > initTosPtr) {\n  \t             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(2484)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tobjPtr->internalRep.twoPtrValue.ptr2 = INT2PTR(CURR_DEPTH);\n  \t                                       ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(2590)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tobjc = CURR_DEPTH - PTR2INT(auxObjList->internalRep.twoPtrValue.ptr2);\n  \t       ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(2604)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \t\t    - CURR_DEPTH;\t\/* Relative to where we are *\/\n  \t\t      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(2642)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tobjc = CURR_DEPTH - PTR2INT(auxObjList->internalRep.twoPtrValue.ptr2);\n  \t       ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(2707)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \t*(++catchTop) = CURR_DEPTH;\n  \t                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(6358)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \t    if ((catchTop != initCatchTop)\n  \t                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7254)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tif (catchTop == initCatchTop) {\n  \t                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7296)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \twhile (CURR_DEPTH > *catchTop) {\n  \t       ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7331)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \twhile (tosPtr > initTosPtr) {\n  \t                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7369)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \tif (tosPtr < initTosPtr) {\n  \t             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7374)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n  \t\t    (unsigned) CURR_DEPTH, (unsigned) 0);\n  \t\t               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclExecute.c(7379)"
+                }
+            ],
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclLink.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclLink.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOO.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOO.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclObj.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclProc.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclProc.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclStrToD.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclStrToD.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclUtf.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclUtf.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclBasic.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclBasic.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCompCmdsGR.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCompCmdsGR.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclDictObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclDictObj.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclFCmd.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclFCmd.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIO.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIO.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclMain.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclMain.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOODefineCmds.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOODefineCmds.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPipe.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPipe.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclResolve.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclResolve.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclThreadJoin.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclThreadJoin.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclUtil.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclUtil.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:00Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclAsync.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclAsync.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclCmdMZ.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclCmdMZ.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:02Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclConfig.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclConfig.c",
+            "start_time" : "2019-12-25T20:02:02Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclEnsemble.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclEnsemble.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIndexObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIndexObj.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIORChan.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIORChan.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclNotify.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclNotify.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOOStubInit.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOOStubInit.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPkg.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPkg.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclStringObj.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclStringObj.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:09Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclVar.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclVar.c",
+            "start_time" : "2019-12-25T20:02:09Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\regcomp.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\regcomp.c",
+            "start_time" : "2019-12-25T20:02:00Z",
+            "end_time" : "2019-12-25T20:02:01Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclClock.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclClock.c",
+            "start_time" : "2019-12-25T20:02:01Z",
+            "end_time" : "2019-12-25T20:02:03Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclDisassemble.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclDisassemble.c",
+            "start_time" : "2019-12-25T20:02:03Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclFileName.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclFileName.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:04Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclIOCmd.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclIOCmd.c",
+            "start_time" : "2019-12-25T20:02:04Z",
+            "end_time" : "2019-12-25T20:02:05Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclLoad.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclLoad.c",
+            "start_time" : "2019-12-25T20:02:05Z",
+            "end_time" : "2019-12-25T20:02:06Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclOOInfo.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclOOInfo.c",
+            "start_time" : "2019-12-25T20:02:06Z",
+            "end_time" : "2019-12-25T20:02:07Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclPosixStr.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclPosixStr.c",
+            "start_time" : "2019-12-25T20:02:07Z",
+            "end_time" : "2019-12-25T20:02:08Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\Release_AMD64_VC1924\\tcl_Dynamic\\tclThreadAlloc.obj",
+            "source_name" : "Z:\\cpython27\\PCbuild\\tcl\\win\\..\\generic\\tclThreadAlloc.c",
+            "start_time" : "2019-12-25T20:02:08Z",
+            "end_time" : "2019-12-25T20:02:10Z"
+        }
+    ]
+}

@@ -63,10 +63,13 @@
   </Target>
 
   <Target Name="BuildNasmFiles" BeforeTargets="PreBuildEvent" DependsOnTargets="PrepareForBuild;FindNasm" Inputs="@(NasmCompile)" Outputs="@(NasmCompile->'$(IntDir)%(Filename).obj')">
-    <Exec Command='setlocal
+    <!-- <Exec Command='setlocal
 set PATH=$(nasmDir);%PATH%
-$(nasm) -o "$(IntDir)%(NasmCompile.Filename).obj" "%(NasmCompile.FullPath)"' />
+$(nasm) -o "$(IntDir)%(NasmCompile.Filename).obj" "%(NasmCompile.FullPath)"' /> -->
+    <Exec Command="icl.exe /Qipo-c /Cp /Cx /Zi /Fo$(IntDir) @(NasmCompile->'&quot;%(FullPath)&quot;', ' ')" />
     <ItemGroup>
+      <!-- <Link Include="$(IntDir)BuildAsmFiles.obj" />
+      <Lib Include="$(IntDir)BuildAsmFiles.obj" /> -->
       <Link Include="$(IntDir)%(NasmCompile.Filename).obj" />
       <Lib Include="$(IntDir)%(NasmCompile.Filename).obj" />
     </ItemGroup>

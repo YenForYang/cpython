@@ -1,0 +1,39 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ot' with '\/Os'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/c", "/Qm64", "/IZ:\cpython27\Python", "/IZ:\cpython27\Modules\zlib", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Os", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:GITVERSION="362ede2"", "/D:GITTAG="heads/2.7-dirty"", "/D:GITBRANCH="2.7"", "/D:__INTEL_COMPILER=1910", "/D:_USRDLL", "/D:Py_BUILD_CORE", "/D:Py_ENABLE_SHARED", "/D:_CRT_SECURE_NO_WARNINGS", "/D:MS_DLL_ID="2.7"", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/D:_WINDLL", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\pythoncore\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\pythoncore\vc142.pdb", "/TC", "/FC", "/Zm200" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getbuildinfo.obj",
+            "source_name" : "..\\Modules\\getbuildinfo.c",
+            "start_time" : "2019-12-27T03:33:16Z",
+            "end_time" : "2019-12-27T03:33:16Z"
+        }
+    ]
+}

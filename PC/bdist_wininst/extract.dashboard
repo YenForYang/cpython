@@ -1,0 +1,158 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:precise'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/c", "/Qm64", "/IZ:\cpython27\Modules\zlib", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Ot", "/Qipo", "/GA", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:_CRT_SECURE_NO_DEPRECATE", "/D:_CRT_NONSTDC_NO_DEPRECATE", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:precise", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\bdist_wininst\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\bdist_wininst\vc142.pdb", "/TC", "/FC" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\extract.obj",
+            "source_name" : "extract.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\adler32.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\adler32.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\inffast.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\inffast.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\inftrees.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\inftrees.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\extract.obj",
+            "source_name" : "extract.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\inflate.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\inflate.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\extract.obj",
+            "source_name" : "extract.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\crc32.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\crc32.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\zutil.obj",
+            "source_name" : "..\\..\\Modules\\zlib\\zutil.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\extract.obj",
+            "source_name" : "extract.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:37Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\install.obj",
+            "source_name" : "install.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "messages" : [
+                {
+                    "msg" : "warning #556: a value of type \"BOOL={int} (__cdecl *)(HWND, LPTSTR={LPSTR={CHAR={char} *}}, int, BOOL={int})\" cannot be assigned to an entity of type \"HRESULT={long} (__cdecl *)(HWND, LPTSTR={LPSTR={CHAR={char} *}}, int, BOOL={int})\"\n          My_SHGetSpecialFolderPath = (BOOL (WINAPI *)(HWND, LPTSTR,\n                                    ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(443)"
+                },
+                {
+                    "msg" : "warning #167: argument of type \"IShellLinkA **\" is incompatible with parameter of type \"LPVOID *\"\n                            &ps1);\n                            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(510)"
+                },
+                {
+                    "msg" : "warning #556: a value of type \"PyObject *(*)(PyObject *, char *)\" cannot be assigned to an entity of type \"PyObject *(*)(PyObject *, char *, ...)\"\n      g_PyErr_Format = PyErr_Format;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(680)"
+                },
+                {
+                    "msg" : "warning #556: a value of type \"BOOL={int} (__cdecl *)(HWND, UINT={unsigned int}, WPARAM={UINT_PTR={unsigned __int64}}, LPARAM={LONG_PTR={__int64}})\" cannot be assigned to an entity of type \"DLGPROC\"\n      psp.pfnDlgProc =    IntroDlgProc;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2087)"
+                },
+                {
+                    "msg" : "warning #556: a value of type \"BOOL={int} (__cdecl *)(HWND, UINT={unsigned int}, WPARAM={UINT_PTR={unsigned __int64}}, LPARAM={LONG_PTR={__int64}})\" cannot be assigned to an entity of type \"DLGPROC\"\n      psp.pfnDlgProc =        SelectPythonDlgProc;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2095)"
+                },
+                {
+                    "msg" : "warning #556: a value of type \"BOOL={int} (__cdecl *)(HWND, UINT={unsigned int}, WPARAM={UINT_PTR={unsigned __int64}}, LPARAM={LONG_PTR={__int64}})\" cannot be assigned to an entity of type \"DLGPROC\"\n      psp.pfnDlgProc =        InstallFilesDlgProc;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2102)"
+                },
+                {
+                    "msg" : "warning #556: a value of type \"BOOL={int} (__cdecl *)(HWND, UINT={unsigned int}, WPARAM={UINT_PTR={unsigned __int64}}, LPARAM={LONG_PTR={__int64}})\" cannot be assigned to an entity of type \"DLGPROC\"\n      psp.pfnDlgProc =        FinishedDlgProc;\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2109)"
+                },
+                {
+                    "msg" : "warning #1478: function \"GetVersionExA\" (declared at line 387 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n      if (!GetVersionEx(&winverinfo))\n           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2179)"
+                },
+                {
+                    "msg" : "warning #810: conversion from \"HINSTANCE\" to \"int\" may lose significant bits\n      int ret = (int)ShellExecute(0, \"runas\", modulename, \"\", NULL,\n                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\bdist_wininst\\install.c(2195)"
+                }
+            ],
+            "end_time" : "2019-12-25T19:10:38Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\bdist_wininst\\extract.obj",
+            "source_name" : "extract.c",
+            "start_time" : "2019-12-25T19:10:37Z",
+            "end_time" : "2019-12-25T19:10:38Z"
+        }
+    ]
+}

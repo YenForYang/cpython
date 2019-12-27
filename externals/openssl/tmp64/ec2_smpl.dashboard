@@ -1,0 +1,34 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        }
+    ],
+    "options" : [ "/Iinc32", "/Itmp32", "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/Fotmp32\ec2_smpl.obj", "/MT", "/Ox", "/DOPENSSL_THREADS", "/DDSO_WIN32", "/W3", "/Gs0", "/Gy", "/nologo", "/DOPENSSL_SYSNAME_WIN32", "/DWIN32_LEAN_AND_MEAN", "/DL_ENDIAN", "/DUNICODE", "/D_UNICODE", "/D_CRT_SECURE_NO_DEPRECATE", "/DOPENSSL_IA32_SSE2", "/DOPENSSL_BN_ASM_MONT", "/DOPENSSL_BN_ASM_MONT5", "/DOPENSSL_BN_ASM_GF2m", "/DRC4_ASM", "/DSHA1_ASM", "/DSHA256_ASM", "/DSHA512_ASM", "/DMD5_ASM", "/DAES_ASM", "/DVPAES_ASM", "/DBSAES_ASM", "/DWHIRLPOOL_ASM", "/DGHASH_ASM", "/DECP_NISTZ256_ASM", "/DOPENSSL_NO_IDEA", "/DOPENSSL_NO_RC5", "/DOPENSSL_NO_MD2", "/DOPENSSL_NO_MDC2", "/DOPENSSL_NO_SSL2", "/DOPENSSL_NO_KRB5", "/DOPENSSL_NO_JPAKE", "/DOPENSSL_NO_WEAK_SSL_CIPHERS", "/DOPENSSL_NO_DYNAMIC_ENGINE", "/Zl", "/Zi", "/Fdtmp32/lib", "/c", "/Qipo1", "/GS-", "/O3" ],
+    "objects" : [
+        {
+            "object_name" : "tmp32\\ec2_smpl.obj",
+            "source_name" : ".\\crypto\\ec\\ec2_smpl.c",
+            "start_time" : "2019-12-26T23:29:54Z",
+            "end_time" : "2019-12-26T23:29:54Z"
+        }
+    ]
+}

@@ -1,0 +1,1397 @@
+{
+    "driver_name" : "icl",
+,
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ot' with '\/Os'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Qipo1' with '\/Qipo'"
+        },
+        {
+            "diagnostic_num" : "10121",
+            "type" : "command line warning",
+            "msg" : "overriding '\/fp:fast=2' with '\/fp:strict'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/c", "/Qm64", "/IZ:\cpython27\Python", "/IZ:\cpython27\Modules\zlib", "/IZ:\cpython27\Include", "/IZ:\cpython27\PC", "/Zi", "/nologo", "/W3", "/O3", "/Ob2", "/Oi", "/Os", "/Qipo", "/Qparallel", "/Quse-intel-optimized-headers", "/D:__INTEL_COMPILER=1910", "/D:_USRDLL", "/D:Py_BUILD_CORE", "/D:Py_ENABLE_SHARED", "/D:_CRT_SECURE_NO_WARNINGS", "/D:MS_DLL_ID="2.7"", "/D:WIN32", "/D:_WIN64", "/D:_M_X64", "/D:NDEBUG", "/D:_WINDLL", "/GF", "/MD", "/GS-", "/Gy", "/arch:CORE-AVX2", "/fp:strict", "/QxHost", "/Zc:wchar_t", "/Zc:forScope", "/FoZ:\cpython27\PCbuild\obj\amd64_Release\pythoncore\", "/FdZ:\cpython27\PCbuild\obj\amd64_Release\pythoncore\vc142.pdb", "/TC", "/FC", "/Zm200" ],
+    "objects" : [
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_collectionsmodule.obj",
+            "source_name" : "..\\Modules\\_collectionsmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_math.obj",
+            "source_name" : "..\\Modules\\_math.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_weakref.obj",
+            "source_name" : "..\\Modules\\_weakref.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\arraymodule.obj",
+            "source_name" : "..\\Modules\\arraymodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\cStringIO.obj",
+            "source_name" : "..\\Modules\\cStringIO.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\itertoolsmodule.obj",
+            "source_name" : "..\\Modules\\itertoolsmodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\parsermodule.obj",
+            "source_name" : "..\\Modules\\parsermodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\stropmodule.obj",
+            "source_name" : "..\\Modules\\stropmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\zipimport.obj",
+            "source_name" : "..\\Modules\\zipimport.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\gzlib.obj",
+            "source_name" : "..\\Modules\\zlib\\gzlib.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1786: function \"open\" (declared at line 516 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _open. See online help for details.\")\n          open((const char *)path, oflag, 0666));\n          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzlib.c(245)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\inflate.obj",
+            "source_name" : "..\\Modules\\zlib\\inflate.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_iso2022.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_iso2022.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_iomodule.obj",
+            "source_name" : "..\\Modules\\_io\\_iomodule.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bufferobject.obj",
+            "source_name" : "..\\Objects\\bufferobject.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\complexobject.obj",
+            "source_name" : "..\\Objects\\complexobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\frameobject.obj",
+            "source_name" : "..\\Objects\\frameobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\moduleobject.obj",
+            "source_name" : "..\\Objects\\moduleobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\structseq.obj",
+            "source_name" : "..\\Objects\\structseq.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\acceler.obj",
+            "source_name" : "..\\Parser\\acceler.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_functoolsmodule.obj",
+            "source_name" : "..\\Modules\\_functoolsmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_localemodule.obj",
+            "source_name" : "..\\Modules\\_localemodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\errnomodule.obj",
+            "source_name" : "..\\Modules\\errnomodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\crc32.obj",
+            "source_name" : "..\\Modules\\zlib\\crc32.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\gzclose.obj",
+            "source_name" : "..\\Modules\\zlib\\gzclose.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\gzwrite.obj",
+            "source_name" : "..\\Modules\\zlib\\gzwrite.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1786: function \"write\" (declared at line 558 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.\")\n              writ = write(state->fd, strm->next_in, put);\n                     ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzwrite.c(89)"
+                },
+                {
+                    "msg" : "warning #1786: function \"write\" (declared at line 558 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _write. See online help for details.\")\n                  writ = write(state->fd, state->x.next, put);\n                         ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzwrite.c(110)"
+                },
+                {
+                    "msg" : "warning #1786: function \"close\" (declared at line 459 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.\")\n      if (close(state->fd) == -1)\n          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzwrite.c(661)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\zutil.obj",
+            "source_name" : "..\\Modules\\zlib\\zutil.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_kr.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_kr.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bufferedio.obj",
+            "source_name" : "..\\Modules\\_io\\bufferedio.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\capsule.obj",
+            "source_name" : "..\\Objects\\capsule.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\descrobject.obj",
+            "source_name" : "..\\Objects\\descrobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\intobject.obj",
+            "source_name" : "..\\Objects\\intobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\object.obj",
+            "source_name" : "..\\Objects\\object.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\tupleobject.obj",
+            "source_name" : "..\\Objects\\tupleobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\weakrefobject.obj",
+            "source_name" : "..\\Objects\\weakrefobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\listnode.obj",
+            "source_name" : "..\\Parser\\listnode.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\tokenizer.obj",
+            "source_name" : "..\\Parser\\tokenizer.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_csv.obj",
+            "source_name" : "..\\Modules\\_csv.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_lsprof.obj",
+            "source_name" : "..\\Modules\\_lsprof.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\main.obj",
+            "source_name" : "..\\Modules\\main.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\rotatingtree.obj",
+            "source_name" : "..\\Modules\\rotatingtree.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\sha512module.obj",
+            "source_name" : "..\\Modules\\sha512module.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\threadmodule.obj",
+            "source_name" : "..\\Modules\\threadmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\adler32.obj",
+            "source_name" : "..\\Modules\\zlib\\adler32.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\compress.obj",
+            "source_name" : "..\\Modules\\zlib\\compress.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\deflate.obj",
+            "source_name" : "..\\Modules\\zlib\\deflate.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\infback.obj",
+            "source_name" : "..\\Modules\\zlib\\infback.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\inftrees.obj",
+            "source_name" : "..\\Modules\\zlib\\inftrees.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_hk.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_hk.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\iobase.obj",
+            "source_name" : "..\\Modules\\_io\\iobase.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\boolobject.obj",
+            "source_name" : "..\\Objects\\boolobject.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\cellobject.obj",
+            "source_name" : "..\\Objects\\cellobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\enumobject.obj",
+            "source_name" : "..\\Objects\\enumobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\genobject.obj",
+            "source_name" : "..\\Objects\\genobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\longobject.obj",
+            "source_name" : "..\\Objects\\longobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\unicodectype.obj",
+            "source_name" : "..\\Objects\\unicodectype.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\myreadline.obj",
+            "source_name" : "..\\Parser\\myreadline.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecsmodule.obj",
+            "source_name" : "..\\Modules\\_codecsmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_hotshot.obj",
+            "source_name" : "..\\Modules\\_hotshot.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\future_builtins.obj",
+            "source_name" : "..\\Modules\\future_builtins.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\md5.obj",
+            "source_name" : "..\\Modules\\md5.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\md5module.obj",
+            "source_name" : "..\\Modules\\md5module.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\shamodule.obj",
+            "source_name" : "..\\Modules\\shamodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\timemodule.obj",
+            "source_name" : "..\\Modules\\timemodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\inffast.obj",
+            "source_name" : "..\\Modules\\zlib\\inffast.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\uncompr.obj",
+            "source_name" : "..\\Modules\\zlib\\uncompr.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_cn.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_cn.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\fileio.obj",
+            "source_name" : "..\\Modules\\_io\\fileio.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\classobject.obj",
+            "source_name" : "..\\Objects\\classobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\funcobject.obj",
+            "source_name" : "..\\Objects\\funcobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\methodobject.obj",
+            "source_name" : "..\\Objects\\methodobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\sliceobject.obj",
+            "source_name" : "..\\Objects\\sliceobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bitset.obj",
+            "source_name" : "..\\Parser\\bitset.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\grammar.obj",
+            "source_name" : "..\\Parser\\grammar.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\parser.obj",
+            "source_name" : "..\\Parser\\parser.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\config.obj",
+            "source_name" : "..\\PC\\config.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\msvcrtmodule.obj",
+            "source_name" : "..\\PC\\msvcrtmodule.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_json.obj",
+            "source_name" : "..\\Modules\\_json.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\cmathmodule.obj",
+            "source_name" : "..\\Modules\\cmathmodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\gcmodule.obj",
+            "source_name" : "..\\Modules\\gcmodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\mathmodule.obj",
+            "source_name" : "..\\Modules\\mathmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\sha256module.obj",
+            "source_name" : "..\\Modules\\sha256module.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\symtablemodule.obj",
+            "source_name" : "..\\Modules\\symtablemodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\xxsubtype.obj",
+            "source_name" : "..\\Modules\\xxsubtype.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\zlibmodule.obj",
+            "source_name" : "..\\Modules\\zlibmodule.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\gzread.obj",
+            "source_name" : "..\\Modules\\zlib\\gzread.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1786: function \"read\" (declared at line 523 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _read. See online help for details.\")\n          ret = read(state->fd, buf + *have, get);\n                ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzread.c(35)"
+                },
+                {
+                    "msg" : "warning #1786: function \"close\" (declared at line 459 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\ucrt\\corecrt_io.h\") was declared deprecated (\"The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _close. See online help for details.\")\n      ret = close(state->fd);\n            ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\zlib\\gzread.c(651)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\trees.obj",
+            "source_name" : "..\\Modules\\zlib\\trees.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:23Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_jp.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_jp.c",
+            "start_time" : "2019-12-26T22:31:23Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\abstract.obj",
+            "source_name" : "..\\Objects\\abstract.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\dictobject.obj",
+            "source_name" : "..\\Objects\\dictobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\iterobject.obj",
+            "source_name" : "..\\Objects\\iterobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\obmalloc.obj",
+            "source_name" : "..\\Objects\\obmalloc.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "messages" : [
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      PT(0), PT(1), PT(2), PT(3), PT(4), PT(5), PT(6), PT(7)\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Objects\\obmalloc.c(464)"
+                },
+                {
+                    "msg" : "warning #170: pointer points outside of underlying object\n      PT(0), PT(1), PT(2), PT(3), PT(4), PT(5), PT(6), PT(7)\n      ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Objects\\obmalloc.c(464)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\stringobject.obj",
+            "source_name" : "..\\Objects\\stringobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\grammar1.obj",
+            "source_name" : "..\\Parser\\grammar1.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\parsetok.obj",
+            "source_name" : "..\\Parser\\parsetok.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getpathp.obj",
+            "source_name" : "..\\PC\\getpathp.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getcopyright.obj",
+            "source_name" : "..\\Python\\getcopyright.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_randommodule.obj",
+            "source_name" : "..\\Modules\\_randommodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\binascii.obj",
+            "source_name" : "..\\Modules\\binascii.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\imageop.obj",
+            "source_name" : "..\\Modules\\imageop.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\mmapmodule.obj",
+            "source_name" : "..\\Modules\\mmapmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_codecs_tw.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\_codecs_tw.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\textio.obj",
+            "source_name" : "..\\Modules\\_io\\textio.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\cobject.obj",
+            "source_name" : "..\\Objects\\cobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\exceptions.obj",
+            "source_name" : "..\\Objects\\exceptions.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\listobject.obj",
+            "source_name" : "..\\Objects\\listobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\rangeobject.obj",
+            "source_name" : "..\\Objects\\rangeobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\unicodeobject.obj",
+            "source_name" : "..\\Objects\\unicodeobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\codecs.obj",
+            "source_name" : "..\\Python\\codecs.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\dtoa.obj",
+            "source_name" : "..\\Python\\dtoa.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getcompiler.obj",
+            "source_name" : "..\\Python\\getcompiler.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\graminit.obj",
+            "source_name" : "..\\Python\\graminit.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\mysnprintf.obj",
+            "source_name" : "..\\Python\\mysnprintf.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pyarena.obj",
+            "source_name" : "..\\Python\\pyarena.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pystate.obj",
+            "source_name" : "..\\Python\\pystate.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\symtable.obj",
+            "source_name" : "..\\Python\\symtable.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\import.obj",
+            "source_name" : "..\\Python\\import.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\traceback.obj",
+            "source_name" : "..\\Python\\traceback.c",
+            "start_time" : "2019-12-26T22:31:31Z",
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_heapqmodule.obj",
+            "source_name" : "..\\Modules\\_heapqmodule.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:20Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_sre.obj",
+            "source_name" : "..\\Modules\\_sre.c",
+            "start_time" : "2019-12-26T22:31:20Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\audioop.obj",
+            "source_name" : "..\\Modules\\audioop.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\cPickle.obj",
+            "source_name" : "..\\Modules\\cPickle.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\operator.obj",
+            "source_name" : "..\\Modules\\operator.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\signalmodule.obj",
+            "source_name" : "..\\Modules\\signalmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\multibytecodec.obj",
+            "source_name" : "..\\Modules\\cjkcodecs\\multibytecodec.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\stringio.obj",
+            "source_name" : "..\\Modules\\_io\\stringio.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bytes_methods.obj",
+            "source_name" : "..\\Objects\\bytes_methods.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\codeobject.obj",
+            "source_name" : "..\\Objects\\codeobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\fileobject.obj",
+            "source_name" : "..\\Objects\\fileobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\setobject.obj",
+            "source_name" : "..\\Objects\\setobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\firstsets.obj",
+            "source_name" : "..\\Parser\\firstsets.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\node.obj",
+            "source_name" : "..\\Parser\\node.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\dl_nt.obj",
+            "source_name" : "..\\PC\\dl_nt.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\errors.obj",
+            "source_name" : "..\\Python\\errors.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\Python-ast.obj",
+            "source_name" : "..\\Python\\Python-ast.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\asdl.obj",
+            "source_name" : "..\\Python\\asdl.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\ceval.obj",
+            "source_name" : "..\\Python\\ceval.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\formatter_unicode.obj",
+            "source_name" : "..\\Python\\formatter_unicode.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getopt.obj",
+            "source_name" : "..\\Python\\getopt.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getversion.obj",
+            "source_name" : "..\\Python\\getversion.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\marshal.obj",
+            "source_name" : "..\\Python\\marshal.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\peephole.obj",
+            "source_name" : "..\\Python\\peephole.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pystrtod.obj",
+            "source_name" : "..\\Python\\pystrtod.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\sysmodule.obj",
+            "source_name" : "..\\Python\\sysmodule.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1478: function \"GetVersionExA\" (declared at line 387 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n      if (!GetVersionEx((OSVERSIONINFO*) &ver))\n           ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Python\\sysmodule.c(601)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_warnings.obj",
+            "source_name" : "..\\Python\\_warnings.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\ast.obj",
+            "source_name" : "..\\Python\\ast.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\compile.obj",
+            "source_name" : "..\\Python\\compile.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\frozen.obj",
+            "source_name" : "..\\Python\\frozen.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getargs.obj",
+            "source_name" : "..\\Python\\getargs.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\mystrtoul.obj",
+            "source_name" : "..\\Python\\mystrtoul.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pyctype.obj",
+            "source_name" : "..\\Python\\pyctype.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\random.obj",
+            "source_name" : "..\\Python\\random.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:32Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_bisectmodule.obj",
+            "source_name" : "..\\Modules\\_bisectmodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_struct.obj",
+            "source_name" : "..\\Modules\\_struct.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:21Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\datetimemodule.obj",
+            "source_name" : "..\\Modules\\datetimemodule.c",
+            "start_time" : "2019-12-26T22:31:21Z",
+            "end_time" : "2019-12-26T22:31:22Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\posixmodule.obj",
+            "source_name" : "..\\Modules\\posixmodule.c",
+            "start_time" : "2019-12-26T22:31:22Z",
+            "messages" : [
+                {
+                    "msg" : "warning #167: argument of type \"BOOL={int} (__cdecl *)(LPCWSTR={const WCHAR={wchar_t={unsigned short}} *})\" is incompatible with parameter of type \"BOOL={int} (__cdecl *)(LPWSTR={WCHAR={wchar_t={unsigned short}} *})\"\n      return win32_1str(args, \"chdir\", \"s:chdir\", win32_chdir, \"U:chdir\", win32_wchdir);\n                                                                          ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\posixmodule.c(1830)"
+                },
+                {
+                    "msg" : "warning #167: argument of type \"BOOL={int} (__cdecl *)(LPCWSTR={const WCHAR={wchar_t={unsigned short}} *})\" is incompatible with parameter of type \"BOOL={int} (__cdecl *)(LPWSTR={WCHAR={wchar_t={unsigned short}} *})\"\n      return win32_1str(args, \"rmdir\", \"s:rmdir\", RemoveDirectoryA, \"U:rmdir\", RemoveDirectoryW);\n                                                                               ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\posixmodule.c(2820)"
+                },
+                {
+                    "msg" : "warning #167: argument of type \"BOOL={int} (__cdecl *)(LPCWSTR={const WCHAR={wchar_t={unsigned short}} *})\" is incompatible with parameter of type \"BOOL={int} (__cdecl *)(LPWSTR={WCHAR={wchar_t={unsigned short}} *})\"\n      return win32_1str(args, \"remove\", \"s:remove\", DeleteFileA, \"U:remove\", DeleteFileW);\n                                                                             ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\posixmodule.c(2891)"
+                },
+                {
+                    "msg" : "warning #1478: function \"GetVersion\" (declared at line 144 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n          if (GetVersion() < 0x80000000 &&\n              ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\Modules\\posixmodule.c(5416)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bytesio.obj",
+            "source_name" : "..\\Modules\\_io\\bytesio.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:24Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bytearrayobject.obj",
+            "source_name" : "..\\Objects\\bytearrayobject.c",
+            "start_time" : "2019-12-26T22:31:24Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\floatobject.obj",
+            "source_name" : "..\\Objects\\floatobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:25Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\memoryobject.obj",
+            "source_name" : "..\\Objects\\memoryobject.c",
+            "start_time" : "2019-12-26T22:31:25Z",
+            "end_time" : "2019-12-26T22:31:26Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\typeobject.obj",
+            "source_name" : "..\\Objects\\typeobject.c",
+            "start_time" : "2019-12-26T22:31:26Z",
+            "end_time" : "2019-12-26T22:31:27Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_subprocess.obj",
+            "source_name" : "..\\PC\\_subprocess.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "messages" : [
+                {
+                    "msg" : "warning #1478: function \"GetVersion\" (declared at line 144 of \"C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.18362.0\\um\\sysinfoapi.h\") was declared deprecated\n      return PyInt_FromLong((int) GetVersion());\n                                  ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\_subprocess.c(592)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\bltinmodule.obj",
+            "source_name" : "..\\Python\\bltinmodule.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:28Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\dynload_win.obj",
+            "source_name" : "..\\Python\\dynload_win.c",
+            "start_time" : "2019-12-26T22:31:28Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pymath.obj",
+            "source_name" : "..\\Python\\pymath.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pythonrun.obj",
+            "source_name" : "..\\Python\\pythonrun.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:32Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\_winreg.obj",
+            "source_name" : "..\\PC\\_winreg.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "messages" : [
+                {
+                    "msg" : "warning #810: conversion from \"void *\" to \"DWORD={unsigned long}\" may lose significant bits\n      rc = RegCreateKeyEx(hKey, subKey, res, NULL, (DWORD)NULL,\n                                                   ^",
+                    "file" : "Z",
+                    "type" : "\\cpython27\\PC\\_winreg.c(1069)"
+                }
+            ],
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\getplatform.obj",
+            "source_name" : "..\\Python\\getplatform.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\modsupport.obj",
+            "source_name" : "..\\Python\\modsupport.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pyfpe.obj",
+            "source_name" : "..\\Python\\pyfpe.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\pystrcmp.obj",
+            "source_name" : "..\\Python\\pystrcmp.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\structmember.obj",
+            "source_name" : "..\\Python\\structmember.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:30Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\thread.obj",
+            "source_name" : "..\\Python\\thread.c",
+            "start_time" : "2019-12-26T22:31:30Z",
+            "end_time" : "2019-12-26T22:31:32Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\import_nt.obj",
+            "source_name" : "..\\PC\\import_nt.c",
+            "start_time" : "2019-12-26T22:31:27Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\formatter_string.obj",
+            "source_name" : "..\\Python\\formatter_string.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\future.obj",
+            "source_name" : "..\\Python\\future.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:29Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\cpython27\\PCbuild\\obj\\amd64_Release\\pythoncore\\importdl.obj",
+            "source_name" : "..\\Python\\importdl.c",
+            "start_time" : "2019-12-26T22:31:29Z",
+            "end_time" : "2019-12-26T22:31:31Z"
+        }
+    ]
+}

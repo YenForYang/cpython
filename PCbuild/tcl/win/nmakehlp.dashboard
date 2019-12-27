@@ -1,0 +1,40 @@
+{
+    "driver_name" : "icl",
+    "driver_messages" : [
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/O3' with '\/Ox'"
+        },
+        {
+            "diagnostic_num" : "10120",
+            "type" : "command line warning",
+            "msg" : "overriding '\/Ox' with '\/O3'"
+        }
+    ],
+    "options" : [ "/Ot", "/Oi", "/QxHost", "/EHc", "/Qcf-protection:none", "/Qunroll-aggressive", "/Qopt-multi-version-aggressive", "/Qvec-guard-write", "/Qopt-subscript-in-range", "/Qguide-file", "/Qopt-mem-layout-trans", "/Qalign-loops", "/Qprof-src-dir", "/Qprof-file:profiling_summary", "/Qpar-schedule-auto", "/Qpar", "/Qpar-loops:new", "/fp:fast=2", "/Qfinite-math-only", "/Ob2", "/Qinline-min-size-", "/Qemit-build-options", "/Qemit-messages", "/Zc:__cplusplus", "/Zc:inline", "/Zc:rvalueCast", "/Zc:strictStrings", "/MP", "/GS-", "/GF", "/Qfnalign", "/Qms2", "/Qvc14.2", "/D_HAS_CONDITIONAL_EXPLICIT=0", "/Qipo1", "/O3", "/arch:AVX2", "/Ox", "/GS-", "/O3", "/nologo" ],
+    "objects" : [
+        {
+            "object_name" : "nmakehlp.obj",
+            "source_name" : "nmakehlp.c",
+            "start_time" : "2019-12-25T20:04:54Z",
+            "messages" : [
+                {
+                    "msg" : "argument of type \"char **\" is incompatible with parameter of type \"const char **\"\n  \t    return CheckForLinkerFeature(&argv[2], argc-2);\n  \t                                 ^",
+                    "line" : "110",
+                    "diagnostic_num" : "167",
+                    "file" : "nmakehlp.c",
+                    "type" : "warning"
+                }
+            ],
+            "end_time" : "2019-12-25T20:04:55Z"
+        }
+        ,
+        {
+            "object_name" : "Z:\\USER\\TMP\\ipo_391168.obj",
+            "source_name" : "ipo_out.c",
+            "start_time" : "2019-12-25T20:04:55Z",
+            "end_time" : "2019-12-25T20:04:55Z"
+        }
+    ]
+}
